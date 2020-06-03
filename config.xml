@@ -3,11 +3,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        id          = "app.menzo.kz"
+        id          = "kz.menzo.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. app.menzo.kz</name>
+    <name>ТЕСТ. menzo</name>
 
     <description>
         При заказе от 3000 тенге доставка роллов и пиццы , осуществляется совершенно бесплатно. Вы заплатите только за заказанные блюда, Вам не придется переплачивать за доставку продукта.
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#FF006D" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -40,17 +40,17 @@
 
 
     <platform name="android">
-        <icon src="res/android/icon/f1beba5840e488ca0ca9a8189f1d6fba.png" density="ldpi" />
-        <icon src="res/android/icon/e6fb639fd7dd26351ea3c2c4d6121274.png" density="mdpi" />
-        <icon src="res/android/icon/9ea270ebc3566fd48a71523510784c50.png" density="hdpi" />
-        <icon src="res/android/icon/af05ff6cdcc2e76ad7934e6a35d77fe3.png" density="xhdpi" />
-        <icon src="res/android/icon/875bcf79c4c1d022997b4a2e8a693b17.png" density="xxhdpi" />
-        <icon src="res/android/icon/56105dfb8dc8a26d36ca233ff49979e8.png" density="xxxhdpi" />
+        <icon src="res/android/icon/85e2b0f0a232ec774ad4cc60408444da.png" density="ldpi" />
+        <icon src="res/android/icon/f1cfc976c90e29efabec01a9a4f4531b.png" density="mdpi" />
+        <icon src="res/android/icon/1cd812b5de03bda98c025e8fb703c946.png" density="hdpi" />
+        <icon src="res/android/icon/e171f05b6d39af331fd8aac1c3801adb.png" density="xhdpi" />
+        <icon src="res/android/icon/e2d6ceb03d14319d8181910e75d263d7.png" density="xxhdpi" />
+        <icon src="res/android/icon/131ffddf1268aa915a486b949c65890a.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/06eb63ae19d6d75e1830521c9eb2d332.png" density="port-hdpi"/>
-        <splash src="res/android/screen/c2734c9d0d8c7cb6757ac43e83a0a066.png" density="port-ldpi"/>
-        <splash src="res/android/screen/98b28faee2264a9f10ef780754b15b3b.png" density="port-mdpi"/>
-        <splash src="res/android/screen/df341d060759d8583f0d800b885aa8f3.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/c803a068e69d4298d751a0da9710a3f2.png" density="port-hdpi"/>
+        <splash src="res/android/screen/bc1b0a93728eb9349a4bf38e4d7f362d.png" density="port-ldpi"/>
+        <splash src="res/android/screen/06d075c72f6b70b610bf6b65d7cec9b3.png" density="port-mdpi"/>
+        <splash src="res/android/screen/0145891c27522e32f4e5ca989de2610e.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
